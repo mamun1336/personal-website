@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Questrial';
+}
+.container{
+    margin: 0% 10%;
+}
+.portfolio{
+    height:1000px;
+    
+}
+#header{
+    background-image: url("img/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.description, .profile-photo{
+    width: 50%;
+    float: left;
+    
+}
+.profile-photo img{
+    width: 100%;
+    padding-top: 80px;
+}
+.description{
+    padding-top: 250px;
+
+}
+.description h2{
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+.description h1{
+    font-size: 60px;
+    color: #ec4c7a;
+    padding-bottom: 40px;
+}
+.description p{
+    color: #707070;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+.description a{
+    font-size: 25px;
+    color: #ffffff;
+    background-color: burlywood;
+    text-decoration: none;
+    padding: 2% 5%;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg,#ec5093, #ed4b72);
+}
+#banner{
+    background-image: url("img/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
