@@ -8,12 +8,12 @@
 }
 .portfolio{
     height:1000px;
-    
+    width: 100%;
 }
 #header{
     background-image: url("img/header-bg.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain,cover;
 }
 .description, .profile-photo{
     width: 50%;
@@ -22,18 +22,17 @@
 }
 .profile-photo img{
     width: 100%;
-    padding-top: 80px;
+    padding-top: 10%;
 }
 .description{
-    padding-top: 250px;
-
+    padding-top: 20%;
 }
 .description h2{
-    font-size: 45px;
+    font-size: 300%;
     padding-bottom: 20px;
 }
 .description h1{
-    font-size: 60px;
+    font-size: 400%;
     color: #ec4c7a;
     padding-bottom: 40px;
 }
@@ -53,7 +52,25 @@
 }
 #banner{
     background-image: url("img/biography-bg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+   
 }
-
+.experience{
+    background-image: url("img/latest-work-bg.png");
+    background-size: contain,cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+}
+.experience h2{
+    text-align: center;
+    font-size: 300%;
+    padding-top: 5%;
+}
+.exp{
+    width: 26%;
+    float: left;
+    padding: 10% 3%;
+}
+.exp img{
+    width: 100%;
+}
