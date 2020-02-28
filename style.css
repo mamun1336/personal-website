@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Questrial';
+    color: #333333;
 }
 .container{
     margin: 0% 10%;
@@ -73,4 +74,55 @@
 }
 .exp img{
     width: 100%;
+}
+.feature{
+    width: 100%;
+    min-height: 1300px;
+    background-image: url("img/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.feature h2{
+    text-align: center;
+    font-size: 300%;
+    padding: 10% 0%;
+}
+.feature h3{
+    text-align: center;
+    font-size: 200%;
+    padding: 0% 0% 1%;
+}
+.feature h4{
+    text-align: center;
+    font-size: 150%;
+    color: #707070;
+    padding-bottom: 5%;
+}
+.feature p{
+    text-align: center;
+    padding: 3% 0% 8%;
+}
+.contact{
+    height: 300px;
+    width: 100%;
+    background-image: linear-gradient(45deg,#ec5093, #ed4b72);
+    border-radius: 10px;
+}
+.contact p{
+    color: #ffffff;
+    text-align: center;
+    padding: 3% 0% 1%;
+    font-size: 30px;
+}
+.contact h2{
+    color: #ffffff;
+    text-align: center;
+    padding:0 0 5%;
+    font-size: 45px;
+}
+.footer{
+    border-top: 1px solid #ececec;
+    background-color: #fafafa;
+    text-align: center;
+    padding: 6% 0 1%;
 }
